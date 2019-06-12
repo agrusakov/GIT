@@ -5,7 +5,7 @@ id INT UNSIGNED NOT NULL AUTO_INCREMENT primary key,
 first_name VARCHAR(30) NOT NULL,
 last_name VARCHAR(30) NOT NULL,
 post VARCHAR(30) NOT NULL,
-salary INT );
+salary INT NOT NULL);
 insert into employees (id, first_name, last_name, post, salary) values (null, 'ivan', 'ivanov', 'manager', 25);
 insert into employees (id, first_name, last_name, post, salary) values (null, 'sergey', 'bukin', 'driver', 35);
 insert into employees (id, first_name, last_name, post, salary) values (null, 'petr', 'komov', 'director', 45);
