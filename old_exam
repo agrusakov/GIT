@@ -1,0 +1,14 @@
+1. useradd student -g wheel -p 123456! -s /bin/bash -u 1000
+2. hostnamectl set-hostname student
+3. yum update
+4. yum install nano
+   yum install mc
+   yum install net-tools
+5. yum groupinstall "Development Tools"
+   yum install ncurses ncurses-devel
+   wget http://hisham.hm/htop/releases/2.0.2/htop-2.0.2.tar.gz
+   tar xfz htop-2.0.2.tar.gz
+   cd htop-2.0.2
+   ./configure
+   make
+   make install
